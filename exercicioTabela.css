@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 50px;
+    font-size: 25px;
+}
+h1 {
+    font-size: 40px;
+}
+table {
+    width: 800px;
+}
+td, th {
+    padding: 10px;
+    text-align: left;
+}
+table thead {
+    background-color: gray;
+    color: #fff;
+}
+tbody tr:hover {
+    background-color: #bd535375;
+}
+tbody td {
+    border-bottom: 1px solid #ccc;
+}
+tbody tr:nth-child(even) {
+    background-color: #eee;
+}
+.qtd {
+    text-align: center;
+}
